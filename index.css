@@ -9,10 +9,11 @@ body {
 }
 
 header {
-    background-color: #343a40;
+    background-color: #8ea0b3;
     color: #fff;
     text-align: center;
     padding: 2em 0;
+    border-radius: 10px;
 }
 
 h1,
