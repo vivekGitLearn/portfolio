@@ -59,9 +59,18 @@ a:hover {
 /* Responsive Design */
 @media (max-width: 600px) {
     section {
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .skills-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 }
+
 
 /* Skills Card Styling */
 .skills-card {
@@ -104,4 +113,10 @@ img {
 .video-container iframe {
     width: 100%;
     height: 315px;
+}
+img:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
 }
