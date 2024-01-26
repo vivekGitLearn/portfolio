@@ -1,4 +1,4 @@
-var mySkills = ["Vivek Kumar", "Web Developer", "IoT Developer"];
+var mySkills = ["Vivek Kumar", "Web Developer", "IoT Developer","Vivek Kumar"];
 
 // Access the div with id "intro"
 let introDiv = document.getElementById("intro");
