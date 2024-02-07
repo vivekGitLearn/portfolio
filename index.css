@@ -23,7 +23,7 @@ h3 {
 }
 
 section {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     padding: 10px;
     background-color: #fff;
@@ -95,6 +95,31 @@ a:hover {
     max-height: 100%;
     border-radius: 12%;
 
+}
+
+
+/* Sprojects Card Styling */
+.projects-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projects {
+    flex: 0 0 calc(33.3333% - 20px);
+    background-color: #f7fbff;
+    color: #000000;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.projects-img {
+    max-width: 90%;
+    max-height: 70%;
+    border-radius: 12%;
+    align-items: center;
 }
 
 img {
