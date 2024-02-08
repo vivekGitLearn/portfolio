@@ -118,16 +118,16 @@
         </section>
     </section>
     <section style="align-items: center;">
-        <h2 id="project">Projects</h2>
-        <h3> Machine Learning</h3>
+        <h1 id="project">Projects</h1>
+        <h2> Machine Learning</h2>
         <section class="projects-card">
             <!-- Include project details here -->
 
             <div class="project">
                 <a href="https://github.com/vivekGitLearn/banglore_house_price_predection_model">
-                <img class="projects-img" src="img/house-price-project.png" alt="loading" srcset="">
-            </a>
-            <p >House Price Predictor (Python)</p>
+                    <img class="projects-img" src="img/house-price-project.png" alt="loading" srcset="">
+                </a>
+                <p>House Price Predictor (Python)</p>
             </div>
             <div class="project">
                 <a href="https://github.com/vivekGitLearn/movie-review-NLP">
@@ -142,11 +142,20 @@
             <div class="project">
                 <a href="https://github.com/vivekGitLearn/breast_cancer">
                     <img class="projects-img" src="img/breast-cancer-project.png" alt="NLP">
-                    <p>Breast cancer Predictor (Python)</p>
                 </a>
+                <p>Breast cancer Predictor (Python)</p>
             </div>
-            <div class="project">
-                <h3> Android Application</h3>
+
+            <h1> Android Application</h1>
+            <br>
+            <div class="project" style="align-items: center;">
+                <div id="image-carousel" class="splide">
+                    <button onclick="imgPrev('AP1')" class="previous round">&#8249;</button>
+                    <img class="AppImg" id="AP1" src="img/AP_14.jpg" alt="" height="auto" width="70%">
+
+                    <button onclick="imgNext('AP1')" class="next round">&#8250;</button>
+
+                </div>
                 <li>Smart Home Automation App</li>
                 <li>Tic Tak Toe </li>
                 <li>Android Weather App</li>
@@ -219,6 +228,12 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel').mount();
+        });
+    </script>
 
 </body>
 
