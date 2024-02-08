@@ -57,34 +57,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    section {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    }
-    .skills-card {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    
-.projects-img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 12%;
-    align-items: center;
-    
-}
-.AppImg{
-    width: 60%;
-    height: 370px;
-   }
-
-}
-
 
 /* Skills Card Styling */
 .skills-card {
@@ -195,3 +167,30 @@ img:hover
    height: 700px;
 width: auto;
   }
+/* Responsive Design */
+@media (max-width: 600px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .skills-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+.projects-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 12%;
+    align-items: center;
+    
+}
+.AppImg{
+    height: 374px;
+ width: auto;
+   }
+
+}
