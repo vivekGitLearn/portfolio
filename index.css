@@ -22,6 +22,12 @@ h3 {
     color: #343a40;
 }
 
+.nav_local{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
 section {
     max-width: 90%;
     margin: 0 auto;
@@ -73,13 +79,45 @@ a:hover {
     margin: 10px 0;
     border-radius: 5px;
     text-align: center;
+
 }
+
 
 .skill img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 12%;
+}
 
+
+.web_project{
+    flex: 0 0 calc(33.3333% - 20px);
+    background-color: #f7fbff;
+    background-color: black;
+    color: #e7dede;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+}
+
+
+#projectWeb1{
+    background-image:image-set(url('img/website_blog.png')3x);
+}
+#projectWeb2{
+    background-image:image-set(url('img/library_web.png')3x);
+}
+
+.web_project:hover {
+    background-image: none; /* Remove background image on hover */
+}
+
+.web_project:hover .button1,
+.web_project:hover .button2 {
+    display: inline-block; /* Show buttons on hover */
 }
 
 
@@ -206,6 +244,18 @@ img:hover {
 
     .projects-card {
         width: 100%;
+    }
+    .web_project{
+        flex: 0 0 calc(33.3333% - 20px);
+        background-color: #f7fbff;
+        background-color: black;
+        color: #e0dddd;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+        text-align: center;
+        width: 100%;
+        height: auto;
     }
     
 }
