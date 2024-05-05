@@ -90,6 +90,23 @@ a:hover {
 }
 
 
+
+#projectWeb1{
+    background-image:image-set(url('img/website_blog.png')3x);
+}
+#projectWeb2{
+    background-image:image-set(url('img/library_web.png')3x);
+}
+
+#projectWeb1:hover
+{
+    background-image: none;
+}
+
+#projectWeb2:hover
+{
+    background-image: none;
+}
 .web_project{
     flex: 0 0 calc(33.3333% - 20px);
     background-color: #f7fbff;
@@ -102,14 +119,20 @@ a:hover {
     width: 30%;
     height: 300px;
 }
-
-
-#projectWeb1{
-    background-image:image-set(url('img/website_blog.png')3x);
+.tour_text {
+    display: none;
 }
-#projectWeb2{
-    background-image:image-set(url('img/library_web.png')3x);
+
+.web_project:hover {
+    background-image: none;
+    background-color: lightblue; /* Change background color on hover */
+    color: #000;
 }
+
+.web_project:hover .tour_text {
+    display: block; /* Show the "Take a Tour" text on hover */
+}
+
 
 .web_project:hover {
     background-image: none; /* Remove background image on hover */
@@ -140,8 +163,8 @@ a:hover {
 
 .projects-img {
     max-width: 100%;
-    max-height: 70%;
-    border-radius: 12%;
+    max-height: 600px;
+    border-radius: 2%;
     align-items: center;
 }
 

@@ -53,3 +53,20 @@ function imgPrev(id) {
         img.src = androidP3[ap3_index];
     }
 }
+
+function redirectLink(url) {
+    window.location.href = url;
+}
+function showText(projectId) {
+    var tourText = document.getElementById('tourText' + projectId.slice(-1));
+    if (tourText) {
+        tourText.style.display = 'block';
+    }
+}
+
+function hideText(projectId) {
+    var tourText = document.getElementById('tourText' + projectId.slice(-1));
+    if (tourText) {
+        tourText.style.display = 'none';
+    }
+}

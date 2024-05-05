@@ -197,12 +197,17 @@
     <section>
         <h3> Website</h3>
         <section class="projects-card">
-            <div id="projectWeb1" class="web_project">
-                <a style="font-weight: bold; font-size:30px; align-items: baseline; align-items:center;" href="https://iotsolution7.000webhostapp.com/">LINK</a>
+            <div id="projectWeb1" class="web_project" onmouseover="showText('projectWeb1')" onmouseout="hideText('projectWeb1')" >
+               <button class="tour_text" id="tourText2" onclick="redirectToLink('https://iotsolution7.000webhostapp.com/')"> <a style="font-weight: bold; font-size:30px; align-items: baseline; align-items:center;">LINK</a></button>
+                
             </div>
-            <div id="projectWeb2" class="web_project">
+            <div id="projectWeb2" class="web_project" onmouseover="showText('projectWeb2')" onmouseout="hideText('projectWeb2')" onclick="redirectToLink('https://lmssystem.com/')">
+                <a style="font-weight: bold; font-size:30px; align-items: baseline; align-items:center;">LINK</a>
                 Library management system
+                <p class="tour_text" id="tourText2">Take a Tour</p>
             </div>
+            
+            
             <div class="web_project">
                 Smart home
             </div>
