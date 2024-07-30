@@ -7,5 +7,12 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        echo 'tested git'
+        sh 'ls '
+      }
+    }
+
   }
 }
